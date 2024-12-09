@@ -80,6 +80,7 @@ export async function POST(request: NextRequest) {
           });
         }
       );
+      console.log(videos[0])
 
       log.info(`Found ${videos.length} videos in the playlist`);
 
